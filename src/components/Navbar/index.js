@@ -4,7 +4,9 @@ export default function Navbar() {
   return (
     <div className="navbar-container">
       <div className="navbar-logo">
-        <h1><span>Give</span>Boost</h1>
+        <h1>
+          <span>Give</span>Boost
+        </h1>
       </div>
 
       <div className="navbar-menu">
@@ -21,7 +23,7 @@ export default function Navbar() {
             <a href="/">Testimonials</a>
           </li>
           <li>
-            <a href="/">Social Metrics</a>
+            <a href="#socialMetrics">Social Metrics</a>
           </li>
         </ul>
       </div>

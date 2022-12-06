@@ -43,7 +43,7 @@ export default function Home() {
       <section>
         <div className="sucess-section02" id="successful">
           <div data-aos="fade-up" className="intro-section02">
-            <p>SUCCESSFUL MARKETING</p>
+            <h4>SUCCESSFUL MARKETING</h4>
             <h2>
               Solid Content Marketing & Content Strategy Is What Sets You Ahead
               Of Your Competitors
@@ -142,21 +142,49 @@ export default function Home() {
 
       <section>
         <div className="bar-info">
-          <div className="info">
+          <div className="info" data-aos="fade-up">
             <h3>8X</h3>
             <p>INCREASE IN SEARCH TRAFFIC</p>
           </div>
-          <div className="info">
+          <div className="info" data-aos="fade-up">
             <h3>385%</h3>
             <p>INCREASE IN MOBILE VISITS</p>
           </div>
-          <div className="info">
+          <div className="info" data-aos="fade-up">
             <h3>78%</h3>
             <p>INCREASE IN PAGEVIEWS</p>
           </div>
-          <div className="info">
+          <div className="info" data-aos="fade-up">
             <h3>10</h3>
             <p>YEARS OF EXPERIENCE</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="social-section03" id="socialMetrics">
+          <div className="intro-section03" data-aos="fade-right">
+            <h4>SOCIAL METRICS</h4>
+            <h2>
+              Increase Your Website Traffic And Attract More Customers
+              Organically
+            </h2>
+            <p>
+              Facilisis leo vel fringilla est ullamcorper. Posuere urna nec
+              tincidunt praesent semper feugiat nibh sed. Non pulvinar neque
+              laoreet suspendisse interdum consectetur libero id. Ac turpis
+              egestas maecenas pharetra convallis posuere morbi. Auctor urna
+              nunc id cursus metus aliquam eleifend. Etiam tempor orci eu
+              lobortis. Justo laoreet sit amet cursus sit. Quisque non tellu
+              orci ac auctor augue mauris augue neque.
+            </p>
+          </div>
+
+          <div className="img-section03" data-aos="fade-up">
+            <img
+              src="https://images.pexels.com/photos/7947707/pexels-photo-7947707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="img-metrics"
+            />
           </div>
         </div>
       </section>

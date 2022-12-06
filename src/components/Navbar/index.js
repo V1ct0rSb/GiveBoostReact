@@ -15,7 +15,7 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href="/">Successful Marketing</a>
+            <a href="#successful">Successful Marketing</a>
           </li>
           <li>
             <a href="/">Testimonials</a>

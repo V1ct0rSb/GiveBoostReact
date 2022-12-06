@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-:root {
-  --primaryColor: #01166a;
-  --secondaryColor: #d7047f;
+html{
+  scroll-behavior: smooth;
+
 }

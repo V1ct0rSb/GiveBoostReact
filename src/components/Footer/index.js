@@ -13,31 +13,31 @@ function Footer() {
       <div className="container-footer">
         <div className="row-footer">
           <div className="footer-col">
-            <h4>Empresa</h4>
+            <h4>Company</h4>
             <ul>
               <li>
-                <Link to="/"> Quem somos </Link>
+                <Link to="/">Who We Are </Link>
               </li>
               <li>
-                <Link to="/"> nossos serviços </Link>
+                <Link to="/">Our Services </Link>
               </li>
               <li>
-                <Link to="/"> política de privacidade </Link>
+                <Link to="/">Privacy Policy </Link>
               </li>
             </ul>
           </div>
 
           <div className="footer-col">
-            <h4>Loja online</h4>
+            <h4>Online Store</h4>
             <ul>
               <li>
-                <Link to="/">Endereço</Link>
+                <Link to="/">Address</Link>
               </li>
             </ul>
           </div>
 
           <div className="footer-col">
-            <h4>Redes Sociais</h4>
+            <h4>Social Networks</h4>
 
             <div className="medias-socias">
               <Link to="/">

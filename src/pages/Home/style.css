@@ -62,11 +62,12 @@
   border-color: white;
   background: transparent;
   transition: 0.3s ease-in;
+  cursor: pointer;
 }
 
 /* ############################### */
 .sucess-section02 {
-  margin-top: 50px;
+  margin-top: 70px;
   margin-bottom: 70px;
   display: flex;
   justify-content: center;
@@ -179,7 +180,8 @@
 
 .social-section03 {
   width: 100%;
-  padding-top: 70px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
   display: flex;
   justify-content: space-around;
@@ -221,4 +223,79 @@
   height: auto;
   border-radius: 10%;
   box-shadow: 0 10px 20px 4px rgba(35, 35, 35, 0.1);
+}
+/* #################################### */
+.princing-section04 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #eaf9ff;
+}
+
+.princing-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.card-princing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 80px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.icon-princing {
+  padding-bottom: 20px;
+}
+
+.princing {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.princing span {
+  font-size: 18px;
+  color: #d7047f;
+}
+
+.info-princing ul li {
+  padding-bottom: 10px;
+  text-align: center;
+  list-style: none;
+}
+
+.princing-cards button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #d7047f;
+  color: #ffff;
+  border-color: #d7047f;
+  width: 200px;
+  padding: 10px;
+  border-radius: 60px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.princing-cards button p {
+  padding-left: 10px;
+}
+
+.princing-cards button:hover {
+  border-color: white;
+  background: #01166a;
+  transition: 0.2s ease-in;
+  cursor: pointer;
 }

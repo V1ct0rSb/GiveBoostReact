@@ -20,7 +20,7 @@ export default function Navbar() {
             <a href="#successful">Successful Marketing</a>
           </li>
           <li>
-            <a href="/">Testimonials</a>
+            <a href="#princing">Pricing Plans</a>
           </li>
           <li>
             <a href="#socialMetrics">Social Metrics</a>

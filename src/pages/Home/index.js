@@ -10,18 +10,53 @@ import { BsPaypal } from "react-icons/bs";
 import { BiRocket } from "react-icons/bi";
 import { FcIdea } from "react-icons/fc";
 
-import { useEffect } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+
+import styled from "styled-components";
+
+export const Bar = styled.div`
+  height: 4px;
+  width: ${(props) => props.width || "0px"};
+  background-color: #d7047f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transition: 1s;
+`;
 
 export default function Home() {
   useEffect(() => {
     Aos.init({ duration: 2000, offset: 0 });
   }, []);
 
+  const textRef = useRef(null);
+  const [barWidth, setBarWidth] = useState(0);
+
+  useEffect(() => {
+    //função para ler as posiçoes atuais do scroll e calcular % de leitura
+    function handleScroll() {
+      //armazena o tamanho do componente onde a div(container-home) esta utilizando o hook de useRef
+      const textHeight = textRef.current.offsetHeight;
+      //armazena a posição do scroll na página
+      const positionY = window.pageYOffset;
+      //calcula a porcentagem do texto em que o leitor de encontra
+      const pagePosition = (positionY * 120.5) / textHeight;
+      //atualiza o barWidth para passar a propriedade ao componente
+      setBarWidth(pagePosition);
+    }
+    //escuta o evento de scroll da janela e chama a função handleScroll quando isso acontece
+    window.addEventListener("scroll", () => handleScroll());
+  }, []);
+
   return (
-    <div className="container-home">
+    <div className="container-home" ref={textRef}>
       <section className="banner-section01">
+        <div className="App">
+          <Bar width={barWidth + "%"} />
+        </div>
         <div className="info-section01">
           <h1 data-aos="fade-right">Sucess With Your Customers</h1>
           <p data-aos="fade-right">

@@ -11,6 +11,7 @@ Projeto de landing page, criado com <code>Create React App</code>
 
 <li>Reactjs</li>
 <li>JavaScript</li>
+<li>HTML</li>
 <li>CSS</li>
 <li>Styled-Components</li>
 

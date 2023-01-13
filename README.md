@@ -2,7 +2,10 @@
 
 <h2>Introdução</h2>
 
-Projeto de landing page, criado com <code>Create React App</code>, aonde se usou: 
+Projeto de landing page, criado com <code>Create React App</code>
+
+
+<h2>Tecnologias</h2>
 
 <h3>Front-End</h3>
 
